@@ -1,0 +1,58 @@
+README:
+
+Read this file before running the application.
+
+********************* INPUT ***********************
+DEFINE ROWS AND COLUMNS FOR NEW CELLS
+ENTER NUMBER OF ROWS (LESS THAN 10)    : 2
+ENTER NUMBER OF COLUMNS (LESS THAN 10) : 2
+
+In above prompt user is expected to enter rows and columns which will be added to original 50*50 seed pattern from (0,0) index.
+User can only enter maximum 100 cells as mentioned in problem statement.
+
+
+********************* MENU ***********************
+1. INPUT NEW CELLS
+2. DISPLAY CURRENT CELLS
+3. DISPLAY CELLS NAMES
+4. SEARCH CURRENT STATE OF THE CELL BY CELL NAME
+5. GENERATE AND DISPLAY NEXT STEP/TICK
+6. EXIT
+**************************************************
+
+In above menu,
+
+1. INPUT NEW CELLS
+User can enter cell name and it's states (Dead or Alive).
+
+ENTER UNIQUE CELL NAME : firstcell
+ENTER STATE OF THE CELL : 
+1 FOR LIVE
+0 FOR DEAD 
+1
+
+2. DISPLAY CURRENT CELLS
+This will display current state for cells.
+If you press 4 and then press 2, your future states becomes present, so it will print current states.
+
+3. DISPLAY CELLS NAMES
+This will print all cell names provided by user.
+
+4. SEARCH CURRENT STATE OF THE CELL BY CELL NAME
+
+This will search state of cell using cell name.
+
+ENTER CELL NAME TO BE SEARCHED: firstcell
+1 = ALIVE
+0 = DEAD
+CURRENT STATE OF firstcell IS : 1
+
+Note that if you have multiple cells with same name then it will print states for all cells with same name.
+
+5. GENERATE AND DISPLAY NEXT STEP/TICK
+This will generate and display next step/tick from present state according given rules in problem statement.
+Note that your future states will become present states in next iteration so if you press 5 again then it will display next states from last future states.
+
+6. EXIT
+You can terminate program by using 6.
+
